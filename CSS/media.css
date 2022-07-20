@@ -1,0 +1,94 @@
+@media screen and (max-width: 375px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background: rgb(0,0,0);
+        background: linear-gradient(273deg, rgba(0,0,0,1) 0%, rgba(40,0,74,1) 100%);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    }
+    
+    header{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    header h3{
+        color: white;
+        font-size: 32px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+       
+        
+    }
+    
+    .buttons{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    margin-top: 20px;
+    
+    }
+    
+    button{
+        width: 300px;
+        height: 53px;
+        border-radius: 6px;
+        background-color: #2263EB;
+        border: none;
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    
+    button:hover{
+    background-color: #364FC7;
+    
+    }
+    
+    #portifolio a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    #setup a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    #linkedin a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    #github a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    header img{
+       margin-left: 70px;
+        width: 100px;
+        height: 100px;
+    }
+}
