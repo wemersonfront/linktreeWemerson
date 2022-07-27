@@ -5,11 +5,11 @@
 }
 
 body{
-    background: rgb(0,0,0);
-    background: linear-gradient(273deg, rgba(0,0,0,1) 0%, rgba(40,0,74,1) 100%);
+    background: rgb(11,0,27);
+    background: linear-gradient(90deg, rgba(11,0,27,1) 22%, rgba(17,0,42,1) 100%); 
 font-family: 'Poppins', sans-serif;
 color: white;
-font-size: 18px;
+font-size: 1rem;
 font-weight: 400;
 }
 
@@ -22,9 +22,9 @@ header{
 
 header h3{
     color: white;
-    font-size: 32px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
 }
 
 .container{
@@ -32,7 +32,7 @@ header h3{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 250px;
+    margin-top: 7rem;
 }
 
 .buttons{
@@ -40,21 +40,24 @@ header h3{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-margin-top: 20px;
+margin-top: 3rem;
 
 }
 
 button{
-    width: 300px;
-    height: 53px;
-    border-radius: 6px;
+    width: 20rem;
+    height: 3.5rem;
+    border-radius: 1rem;
     background-color: #2263EB;
     border: none;
     color: white;
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 button:hover{
@@ -82,8 +85,19 @@ background-color: #364FC7;
     color: white;
 }
 
+
+#developed{
+    display: flex;
+    justify-content: center;
+   margin-top: 1rem;
+    font-size: 0.7rem;
+}
+#developed span{
+    font-weight: 600;
+}
+
 header img{
-   margin-left: 70px;
-    width: 100px;
-    height: 100px;
+   margin-left: 5rem;
+    width: 7.5rem;
+    height: 7.5rem;
 }
